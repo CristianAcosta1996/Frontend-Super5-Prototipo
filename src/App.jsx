@@ -1,6 +1,6 @@
-import { LoginPage } from "./pages/auth/LoginPage";
 import "./App.css";
+import { AppRouter } from "./router/AppRouter";
 
 export const App = () => {
-  return <LoginPage />;
+  return <AppRouter />;
 };

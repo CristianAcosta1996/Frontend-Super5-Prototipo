@@ -1,7 +1,7 @@
 import { Box, Button, Grid, TextField } from "@mui/material";
 
 import brandLogo from "../../assets/brandLogo2.png";
-import { useForm } from "../../hooks/useForm";
+import { useForm } from "../hooks/useForm";
 
 export const LoginPage = () => {
   const [form, handleInputChange, reset] = useForm({ email: "", password: "" });
@@ -34,6 +34,7 @@ export const LoginPage = () => {
             },
             maxWidth: 700,
             borderRadius: 4,
+            boxShadow: 20,
           }}
         >
           <Grid item xs={12} sm={8} marginBottom={3} margin="auto">
