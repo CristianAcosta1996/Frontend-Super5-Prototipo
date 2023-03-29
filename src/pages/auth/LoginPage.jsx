@@ -1,6 +1,6 @@
-import { Box, Button, Container, Grid, TextField } from "@mui/material";
-import { useState } from "react";
-import brandLogo from "../../assets/brandLogo.png";
+import { Box, Button, Grid, TextField } from "@mui/material";
+
+import brandLogo from "../../assets/brandLogo2.png";
 import { useForm } from "../../hooks/useForm";
 
 export const LoginPage = () => {
