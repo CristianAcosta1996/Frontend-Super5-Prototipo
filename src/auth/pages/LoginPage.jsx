@@ -51,6 +51,7 @@ export const LoginPage = () => {
               type="email"
               onChange={handleInputChange}
               value={email}
+              autoComplete="off"
             />
           </Grid>
           <Grid item xs={12} marginBottom={6}>
